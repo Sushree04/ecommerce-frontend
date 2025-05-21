@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Dynamic Product Grid Website</title>
+    <title>Product Details</title>
     <link rel="stylesheet" href="styles/main.css" />
 </head>
 <body>
@@ -14,7 +14,7 @@
         <nav class="nav-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="list.html">Products</a></li>
+                <li><a href="index.html">Products</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -31,20 +31,10 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Biggest Sale of the Year!</h1>
-            <p>Up to 50% off on selected items.</p>
-            <a href="#" class="cta-button">Shop Now</a>
-        </div>
-    </section>
+    <main id="detailContainer">
+        <!-- Product details will be dynamically loaded here -->
+    </main>
 
-    <section class="product-grid">
-        <div class="grid-container" id="productGrid">
-            <!-- Dynamic product cards will be inserted here -->
-        </div>
-    </section>
-
-    <script src="scripts/app.js"></script>
+    <script src="scripts/product.js"></script>
 </body>
 </html>
